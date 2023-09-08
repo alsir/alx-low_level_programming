@@ -1,30 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- * main - Print the last digit of a random number.
- * Return: Always 0 (success).
+ * main - Print the alphabet in lowercase except 'e' and 'q'.
+ * Return: Always 0 (succed).
  */
 int main(void)
 {
-	int n;
-	int last_digit;
+	char ch = 'a';
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	last_digit = n % 10;
-	if (last_digit > 5)
+	while (ch <= 'z')
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
+		if (ch != 'q' && ch != 'e')
+		{
+			putchar(ch);
+		}
+		ch++;
 	}
-	else if (last_digit == 0)
-	{
-		printf("Last digit of %d is %d and is 0\n", n, last_digit);
-	}
-	else
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n,
-		last_digit);
-	}
+	putchar('\n');
 	return (0);
 }
