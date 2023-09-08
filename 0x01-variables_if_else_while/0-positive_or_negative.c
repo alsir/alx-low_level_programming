@@ -1,15 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- *  * main - Entry point.
- *   *
- *    * Description: This function will print the value of the number followed by:
- *     * is positive if the number is positive.
- *      * is negative if the number is negative.
- *       * is zero,otherwise.
- *        * Return: Always 0 (success).
- *         */
+/*
+ * main - Entry point.
+ *
+ *Description: This function will print the value of the number followed by:
+ *is positive if the number is positive.
+ *is negative if the number is negative.
+ *is zero,otherwise.
+ *Return: Always 0 (success).
+ */
 int main(void)
 {
 		int n;
