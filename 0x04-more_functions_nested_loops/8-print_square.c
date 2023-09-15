@@ -1,27 +1,27 @@
-nclude "main.h"
+#include "main.h"
 /**
- *  * print_square - Draw a square in the terminal
- *   * @size: The size of the square
- *    * Return: Always void
- *     */
-void print_square(int size)
+ * print_square - Draw a square in the terminal
+ * @size: The size of the square
+ * Return: Always void
+ */
+void print_square(int s)
 {
-		int length, width;
+	int l, w;
 
-			if (size > 0)
-					{
-								for (length = 0; length < size; length++)
-											{
-															for (width = 0; width < size; width++)
-																			{
-																								_putchar('#');
-																											}
+	if (s > 0)
+	{
+		for (l = 0; l < s; l++)
+		{
+			for (w = 0; w < s; w++)
+			{
+				_putchar('#');
+			}
 
-																		if (length != size - 1)
-																						{
-																											_putchar('\n');
-																														}
-																				}
-									}
+			if (l != s - 1)
+			{
 				_putchar('\n');
+			}
+		}
+	}
+	_putchar('\n');
 }
