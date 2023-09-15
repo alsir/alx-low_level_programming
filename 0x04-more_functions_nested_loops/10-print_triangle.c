@@ -4,25 +4,25 @@
  * @size: The size of the triangle
  * Return: Always void
  */
-void print_triangle(int s)
+void print_triangle(int size)
 {
-	int l, p, h;
+	int length, space, hashtag;
 
-	if (s > 0)
+	if (size > 0)
 	{
-		for (l = 1; l <= s; l++)
+		for (length = 1; length <= size; length++)
 		{
-			for (p = 0; p < s - l; s++)
+			for (space = 0; space < size - length; space++)
 			{
 				_putchar(' ');
 			}
 
-			for (h = 0; h < l; h++)
+			for (hashtag = 0; hashtag < length; hashtag++)
 			{
 				_putchar('#');
 			}
 
-			if (l != s)
+			if (length != size)
 			{
 				_putchar('\n');
 			}
