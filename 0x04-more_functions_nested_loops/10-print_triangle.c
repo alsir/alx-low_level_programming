@@ -1,32 +1,32 @@
 #include "main.h"
 /**
- *  * print_triangle - Draw a triangle in the terminal
- *   * @size: The size of the triangle
- *    * Return: Always void
- *     */
-void print_triangle(int size)
+ * print_triangle - Draw a triangle in the terminal
+ * @size: The size of the triangle
+ * Return: Always void
+ */
+void print_triangle(int s)
 {
-		int length, space, hashtag;
+	int l, p, h;
 
-			if (size > 0)
-					{
-								for (length = 1; length <= size; length++)
-											{
-															for (space = 0; space < size - length; space++)
-																			{
-																								_putchar(' ');
-																											}
+	if (s > 0)
+	{
+		for (l = 1; l <= s; l++)
+		{
+			for (p = 0; p < s - l; s++)
+			{
+				_putchar(' ');
+			}
 
-																		for (hashtag = 0; hashtag < length; hashtag++)			{	_putchar('#');
-																						}
+			for (h = 0; h < l; h++)
+			{
+				_putchar('#');
+			}
 
-																					i (length != s
-
-																										fize)
-																									{
-																														_putchar('\n');
-																																	}
-																							}
-									}
+			if (l != s)
+			{
 				_putchar('\n');
+			}
+		}
+	}
+	_putchar('\n');
 }
