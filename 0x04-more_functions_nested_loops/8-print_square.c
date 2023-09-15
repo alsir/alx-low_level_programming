@@ -4,20 +4,20 @@
  * @size: The size of the square
  * Return: Always void
  */
-void print_square(int s)
+void print_square(int size)
 {
-	int l, w;
+	int length, width;
 
-	if (s > 0)
+	if (size > 0)
 	{
-		for (l = 0; l < s; l++)
+		for (length = 0; length < size; length++)
 		{
-			for (w = 0; w < s; w++)
+			for (width = 0; width < size; width++)
 			{
 				_putchar('#');
 			}
 
-			if (l != s - 1)
+			if (length != size - 1)
 			{
 				_putchar('\n');
 			}
