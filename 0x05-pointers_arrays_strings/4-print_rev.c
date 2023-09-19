@@ -2,7 +2,7 @@
 /**
  * print_rev - Print a string , in reverse
  * followed by a new line , to stdout
- * @s: The string to be printed 
+ * @s: The string to be printed
  * Return:void
  */
 void print_rev(char *s)
@@ -13,7 +13,7 @@ void print_rev(char *s)
 	{
 		count++;
 	}
-	for (i = count -1 ;i >= 0; i--)
+	for (i = count - 1 ; i >= 0 ; i--)
 	{
 		_putchar(s[i]);
 	}

@@ -1,5 +1,5 @@
 /**
- * _strlin - returns the lenght of the string
+ * _strlen - returns the lenght of the string
  * @s :the string to calculate its lenght
  *
  * Return: the lenght of the string
@@ -13,5 +13,5 @@ int _strlen(char *s)
 		count++;
 	}
 
-	return (conut);
+	return (count);
 }
