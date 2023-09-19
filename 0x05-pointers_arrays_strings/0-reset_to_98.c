@@ -1,6 +1,6 @@
 /**
-* reset_TO_98 - Update the value to 98.
-* @N: apointer to an int
+* reset_to_98- Update the value to 98.
+* @n: apointer to an int
 *
 * Return :void
 */
