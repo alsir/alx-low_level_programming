@@ -1,5 +1,5 @@
 /**
- * _strlin - returns the lenght of the string
+ * _strlen - returns the lenght of the string
  * @s :the string to calculate its lenght
  *
  * Return: the lenght of the string
